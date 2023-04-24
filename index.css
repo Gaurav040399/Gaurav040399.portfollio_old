@@ -374,3 +374,22 @@ span{
     font-size: 2rem;
     color: var(--second-bg-color);
 }
+.project-tech-stack{
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+}
+.project-tech-stack h2, .project-tech-stack div{
+    /* border: 2px solid red; */
+    margin-bottom: 0;
+}
+
+
+.project-tech-stack h2{
+    font-size: 2rem;
+}
+
+.tech-stack{
+    font-size: 3rem;
+    margin-top: 0;
+}
