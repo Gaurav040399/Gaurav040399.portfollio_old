@@ -19,18 +19,18 @@
         <a href="#" class="logo">Portfolio</a>
         <!-- <i class='bx bx-menu' id="menu-icon"></i> -->
         <div class="category">
-            <a href="" id="home" class="nav-link home active">Home</a>
-            <a href="" id="about" class="nav-link about">About</a>
-            <a href="" id="skills" class="nav-link skills">Skills</a>
-            <a href="" id="projects" class="nav-link projects">Projects</a>
-            <a href="" id="contact" class="nav-link contact">Contact</a>
+            <a href="#home1" id="home" class="nav-link home active">Home</a>
+            <a href="#about1" id="about" class="nav-link about">About</a>
+            <a href="#skills1" id="skills" class="nav-link skills">Skills</a>
+            <a href="#projects1" id="projects" class="nav-link projects">Projects</a>
+            <a href="#contact1" id="contact" class="nav-link contact">Contact</a>
             <a class="nav-link resume" id="resume-link-1" href="./image/Gaurav_Asode_Resume.pdf" download="Gaurav_Asode_Resume"
                 onclick="window.open(`https://drive.google.com/file/d/1b0gW5M03rF9LhgXnkX_a93kL2bjH3UJj/view?usp=share_link`)">Resume
                 <i class='bx bxs-download' id="resume-button-1"></i></a>
         </div>
     </nav>
     <!-- ******************************** Home Section **************************************** -->
-    <section class="home-sec">
+    <section class="home-sec" id="home1">
         <div class="home-sec-content">
             <h3>Hollo, It's Me</h3>
             <h1 id="user-detail-name">Gaurav Asode</h1>
@@ -58,7 +58,7 @@
     </section>
 
     <!-- About Secton  -->
-    <section class="about-sec" id="about">
+    <section class="about-sec" id="about1">
         <div class="about-sec-content">
             <h2 class="heading">About <span>Me</span></h2>
 
@@ -73,7 +73,7 @@
 
     <!-- Skills Section  -->
 
-    <section class="service skills-card" id="skills">
+    <section class="service skills-card" id="skills1">
 
         <h2 class="heading">Tech <span>Stack</span></h2>
         <div class="service-container ">
@@ -145,7 +145,7 @@
 
 
     <!-- portfolio section -->
-    <section class="portfolio" id="projects">
+    <section class="portfolio" id="projects1">
         <h2 class="heading">Latest <span>Project</span></h2>
         <div class="portfolio-container">
             <div class="project-name project-card">
@@ -300,6 +300,33 @@
          </div>
         </div>
         </section>
+
+             <!-- contact ssection  -->
+             <section class="contact" id="contact1">
+                <h2 class="heading">Contact <span>Mi!</span></h2>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="Frist Name">
+                        <input type="email" placeholder="Email Address">
+                    </div>
+                    <div class="input-box">
+                        <input type="number" placeholder="Mobile Number">
+                        <input type="text" placeholder="Email Subject">
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" class="btn">
+                </form>
+            </section>
+    
+            <!-- Footer section  -->
+            <footer class="footer" >
+                <div class="footer-text">
+                    <p>Copyright &copy; 2023 by Gaurav Asode | All rights Reserved.</p>
+                </div>
+                <div class="footer-iconTop">
+                    <a href="#home1"><i class='bx bx-up-arrow-alt' ></i></a>
+                </div>
+            </footer>
 
 </body>
 <script src="index.js"></script>
