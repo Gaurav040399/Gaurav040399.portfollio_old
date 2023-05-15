@@ -182,7 +182,8 @@ span{
     /* margin: 2rem 0 3rem 0; */
     margin-bottom: 3rem;
     margin-top: 2rem;
-    width: 70%;
+    width: 80%;
+    text-align: justify;
     /* border: 1px solid red; */
 }
 
