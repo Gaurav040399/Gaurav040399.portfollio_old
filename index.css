@@ -524,12 +524,20 @@ span{
 /* git section */
 
 .react-activity-calendar {
+   
     text-align: center;
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
+  }
+
+  #git-stat{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
   }
   
   #git-stat > div > img {
-    width: 55%;
+    width: 90%;
     background-color: black;
   }
+
+  
