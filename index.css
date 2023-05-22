@@ -79,9 +79,12 @@ section{
 /* Home Section  */
 
 .home-sec{
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+     justify-content: center;
     align-items: center;
+    display: grid;
+    grid-template-columns: 50% 30%;
+    gap: 20px 30px;
 }
 
 .home-sec-img img{
@@ -517,3 +520,16 @@ span{
         margin: 3rem 0;
     }
 }
+
+/* git section */
+
+.react-activity-calendar {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+  
+  #git-stat > div > img {
+    width: 55%;
+    background-color: black;
+  }
