@@ -2,10 +2,10 @@
 let menuIcon = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".category");
 
-menuIcon.onclick = ()=>{
-    menuIcon.classList.toggle('bx-x');
-    category.classList.toggle('active')
-}
+// menuIcon.onclick = ()=>{
+//     menuIcon.classList.toggle('bx-x');
+//     category.classList.toggle('active')
+// }
 
 // Scroll section active link
 let sections = document.querySelectorAll("section");
